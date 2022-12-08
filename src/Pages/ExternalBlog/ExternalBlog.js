@@ -13,7 +13,7 @@ function ExternalBlog(){
         (async()=>{
         try{
        const response= await fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=1e607b4bad374fe3ad834507a0eaef01');
-      //  console.log(response);
+       console.log(response);
          const data =await response.json();
          console.log(data.articles);
          setExternalBlogData(data.articles);

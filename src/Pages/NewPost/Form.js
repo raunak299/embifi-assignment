@@ -32,7 +32,7 @@ function Form(){
         alert('No Field Can be Empty !!')
         return;  }
         setLoading(true);
-        let time = new Date;
+        let time = new Date();
         let imgName= image.name + time.toString();
         storage.ref(`/images/${imgName}`).put(image)
         .on("state_changed",console.log("img uploaded"),alert,

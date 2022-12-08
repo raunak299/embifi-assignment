@@ -7,7 +7,7 @@ import { Route, Switch } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import NewPost from './Pages/NewPost/NewPost';
 import Blog from './Pages/Blog/Blog';
-import ExternalBlog from './Pages/ExternalBlog/ExternalBlog';
+// import ExternalBlog from './Pages/ExternalBlog/ExternalBlog';
 // import Navbar from './Components/Navbar/Navbar';
 
 function App() {
@@ -26,9 +26,9 @@ function App() {
           <NewPost/>
       </Route>
 
-      <Route path='/external-blog' exact>
+      {/* <Route path='/external-blog' exact>
           <ExternalBlog/>
-      </Route>
+      </Route> */}
 
       <Route path='/blog/:blogId' exact>
           <Blog/>

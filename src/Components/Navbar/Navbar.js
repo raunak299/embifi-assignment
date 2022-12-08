@@ -18,9 +18,9 @@ function Navbar(){
         <Link to='/add-blog'>
                 <button>Add Blog</button>
         </Link>
-        <Link to='/external-blog'>
+        {/* <Link to='/external-blog'>
                 <button>External Blogs</button>
-        </Link>
+        </Link> */}
         </div>
        
     </div>

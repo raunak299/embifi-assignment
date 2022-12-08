@@ -1,0 +1,63 @@
+
+a {
+    all: unset;
+    display: block;
+}
+
+
+
+.postcard-sec{
+    display: flex;
+    flex-flow: column ;
+    justify-content:space-between;
+    align-items: flex-start;
+    width: 70vw;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 3.5rem ;
+}
+
+.postcard-sec:hover{
+    transform: scale(1.02);
+  transition: all 0.3s linear;
+}
+
+
+.postcard-sec img{
+    width:100%;
+    height:30vh;
+}
+
+
+
+.postcard-sec h3{
+    display: block;
+    padding:.5rem;
+  color:#324D67;
+    
+}
+
+.postcard-sec div{
+    padding: 0rem .5rem .5rem .5rem;
+    color:grey;
+    font-weight: 500;
+}
+
+@media(min-width : 750px){
+    .postcard-sec{
+        width:40vw;
+        margin-left:1rem;
+        margin-right: 1rem;
+    }
+}
+
+
+@media(min-width : 950px){
+    .postcard-sec{
+        width:35vw;
+    }
+    .postcard-sec img{
+        width:100%;
+        height:35vh;
+    }
+}
